@@ -1,0 +1,184 @@
+'''Train a simple deep CNN on the CIFAR10 small images dataset.
+It gets to 75% validation accuracy in 25 epochs, and 79% after 50 epochs.
+(it's still underfitting at that point, though).
+'''
+
+from __future__ import print_function
+import keras
+from keras.datasets import cifar10
+from keras.preprocessing.image import ImageDataGenerator
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Activation, Flatten
+from keras.layers import Conv2D, MaxPooling2D
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.model_selection import train_test_split
+
+
+# Set random seed for reproducibility
+np.random.seed(12345)
+
+
+# Define settings
+num_classes = 10
+num_examples = 5000
+num_initializations = 5
+
+
+# Function to plot training loss curves
+def plot_train_loss(history):
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('Model Loss')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoch')
+    plt.legend(['Train', 'Validation'], loc='upper right')
+    plt.show()
+
+
+# The data, split between train and test sets:
+(x_train, y_train), (x_test, y_test) = cifar10.load_data()
+
+x_train = x_train[:num_examples]
+y_train = y_train[:num_examples]
+
+# Split training data into training and validation set
+x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=12345)
+
+
+x_train = x_train.astype(np.float32) / 255.
+x_val = x_val.astype(np.float32) / 255.
+x_test = x_test.astype(np.float32) / 255.
+
+
+# Convert class vectors to binary class matrices.
+y_train = keras.utils.to_categorical(y_train, num_classes)
+y_val = keras.utils.to_categorical(y_val, num_classes)
+y_test = keras.utils.to_categorical(y_test, num_classes)
+
+
+# Define model
+def cnn_model():
+    model = Sequential()
+    model.add(Conv2D(32, (3, 3), padding='same',
+                     input_shape=x_train.shape[1:]))
+    model.add(Activation('relu'))
+    model.add(Conv2D(32, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.25))
+
+    model.add(Conv2D(64, (3, 3), padding='same'))
+    model.add(Activation('relu'))
+    model.add(Conv2D(64, (3, 3)))
+    model.add(Activation('relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Dropout(0.25))
+
+    model.add(Flatten())
+    model.add(Dense(512))
+    model.add(Activation('relu'))
+    model.add(Dropout(0.5))
+    model.add(Dense(num_classes))
+    model.add(Activation('softmax'))
+
+    return model
+
+
+# initiate RMSprop optimizer
+opt = keras.optimizers.rmsprop(lr=0.0001, decay=1e-6)
+#opt = keras.optimizers.Adadelta()
+
+# Set training hyper-parameters
+epochs = 200
+batch_size = 256
+patience = 10
+
+no_aug = np.zeros(num_initializations)
+post_aug = np.zeros(num_initializations)
+
+
+for initialization in range(num_initializations):
+
+    # Instantiate CNN
+    model = cnn_model()
+
+    # Let's train the model using RMSprop
+    model.compile(loss='categorical_crossentropy',
+                  optimizer=opt,
+                  metrics=['accuracy'])
+
+
+
+
+
+    # =====================================
+    # No augmentation
+    # =====================================
+
+    print('Not using data augmentation.')
+
+    # Specify callbacks
+    callbacks = [EarlyStopping(monitor='val_loss', min_delta=0, patience=patience, verbose=0),
+                 ModelCheckpoint('cifar10_cnn.h5', monitor='val_loss', verbose=1, save_best_only=True,
+                                 mode='min')]
+
+    no_aug_history = model.fit(x_train, y_train,
+                        batch_size=batch_size,
+                        epochs=epochs,
+                        validation_data=(x_val, y_val),
+                        callbacks = callbacks,
+                        shuffle=True)
+
+    model.load_weights('cifar10_cnn.h5')
+
+    # Score trained model.
+    scores = model.evaluate(x_test, y_test, verbose=1)
+    no_aug[initialization] = scores[1]
+
+    # =====================================
+    # Post augmentation
+    # =====================================
+
+    print('Using post augmentation.')
+
+    # Specify callbacks
+    callbacks = [EarlyStopping(monitor='val_loss', min_delta=0, patience=patience, verbose=0),
+                 ModelCheckpoint('cifar10_post_augmented_cnn.h5', monitor='val_loss', verbose=1, save_best_only=True,
+                                 mode='min')]
+
+    # Specify augmentation details
+    datagen = ImageDataGenerator(rotation_range=40,
+                                 width_shift_range=0.2,
+                                 height_shift_range=0.2,
+                                 shear_range=0.2,
+                                 zoom_range=0.2,
+                                 horizontal_flip=True,
+                                 fill_mode='nearest')
+
+    # Fit the model on the batches generated by datagen.flow().
+    post_aug_history = model.fit_generator(datagen.flow(x_train, y_train, batch_size=batch_size),
+                                  epochs=epochs,
+                                  steps_per_epoch=x_train.shape[0] // batch_size,
+                                  validation_data=datagen.flow(x_val, y_val, batch_size=batch_size),
+                                  validation_steps=x_val.shape[0] // batch_size,
+                                  callbacks=callbacks)
+
+    model.load_weights('cifar10_post_augmented_cnn.h5')
+
+    # Score trained model
+    scores = model.evaluate(x_test, y_test, verbose=1)
+    post_aug[initialization] = scores[1]
+
+
+# =====================================
+# Show results
+# =====================================
+
+# Print accuracy results
+print('\n\nNo augmentation: %f\nPost augmentation: %f' % (np.mean(no_aug), np.mean(post_aug)))
+
+# Plot loss curves
+plot_train_loss(no_aug_history)
+plot_train_loss(post_aug_history)
