@@ -4,7 +4,777 @@
     <bookmark url="file://$PROJECT_DIR$/semi_supervised/labelling_algorithm/cifar10_guided_labelling.py" description="&#10;# Print accuracies of classifiers on full trainin..." line="309" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17cf866e-6602-4925-92ae-394c933c3408" name="Default" comment="" />
+    <list default="true" id="17cf866e-6602-4925-92ae-394c933c3408" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/david.iml" afterPath="$PROJECT_DIR$/.idea/david.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/functions/visualization_funcs.py" afterPath="$PROJECT_DIR$/functions/visualization_funcs.py" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_0.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_0.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_10.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_10.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_15.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_15.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_20.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_20.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_25.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_25.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_30.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_30.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_35.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_35.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_40.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_40.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_45.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_45.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_5.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_5.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_50.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_50.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_55.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_55.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_60.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_60.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_65.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_65.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_70.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_70.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_75.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_75.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_80.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_80.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_85.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_85.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_90.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_90.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_95.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_gen_95.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_1.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_1.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_11.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_11.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_16.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_16.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_21.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_21.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_26.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_26.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_31.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_31.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_36.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_36.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_41.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_41.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_46.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_46.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_51.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_51.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_56.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_56.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_6.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_6.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_61.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_61.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_66.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_66.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_71.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_71.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_76.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_76.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_81.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_81.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_86.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_86.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_91.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_91.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_96.png" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_96.png" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Models/sd_jlr_encoder.h5" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Models/sd_jlr_encoder.h5" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Models/sd_jlr_generator.h5" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Models/sd_jlr_generator.h5" />
+      <change beforePath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py" afterPath="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/.idea/cifar10.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/__init__.py" afterPath="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_models.py" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/0_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/0_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/0_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/0_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/0_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/100_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/101_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/102_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/103_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/104_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/105_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/106_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/107_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/108_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/109_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/10_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/10_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/10_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/10_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/10_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/110_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/111_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/112_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/113_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/114_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/115_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/116_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/117_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/118_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/119_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/11_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/11_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/11_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/11_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/11_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/120_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/121_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/122_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/123_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/124_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/125_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/126_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/127_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/128_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/129_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/12_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/12_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/12_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/12_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/12_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/130_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/131_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/132_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/133_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/134_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/135_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/136_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/137_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/138_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/139_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/13_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/13_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/13_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/13_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/13_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/140_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/141_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/142_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/143_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/144_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/145_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/146_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/147_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/148_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/149_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/14_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/14_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/14_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/14_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/14_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/150_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/151_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/152_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/153_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/154_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/155_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/156_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/157_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/158_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/159_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/15_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/15_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/15_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/15_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/15_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/160_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/161_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/162_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/163_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/164_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/165_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/166_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/167_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/168_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/169_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/16_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/16_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/16_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/16_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/16_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/170_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/171_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/172_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/173_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/174_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/175_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/176_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/177_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/178_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/179_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/17_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/17_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/17_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/17_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/17_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/180_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/181_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/182_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/183_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/184_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/185_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/186_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/187_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/188_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/189_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/18_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/18_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/18_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/18_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/18_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/190_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/191_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/192_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/193_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/194_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/195_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/196_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/197_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/198_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/199_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/19_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/19_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/19_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/19_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/19_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/1_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/1_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/1_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/1_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/1_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/200_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/201_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/202_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/203_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/204_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/205_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/206_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/207_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/208_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/209_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/20_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/20_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/20_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/20_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/20_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/210_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/211_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/212_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/213_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/214_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/215_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/216_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/217_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/218_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/219_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/21_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/21_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/21_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/21_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/21_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/220_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/221_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/222_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/223_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/224_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/225_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/226_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/227_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/228_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/229_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/22_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/22_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/22_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/22_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/22_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/230_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/231_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/232_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/233_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/234_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/235_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/236_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/237_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/238_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/239_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/23_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/23_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/23_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/23_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/23_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/240_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/241_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/242_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/243_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/244_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/245_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/246_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/247_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/248_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/249_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/24_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/24_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/24_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/24_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/24_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/250_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/251_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/252_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/253_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/254_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/255_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/256_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/257_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/258_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/259_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/25_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/25_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/25_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/25_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/25_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/260_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/261_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/262_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/263_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/264_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/265_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/266_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/267_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/268_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/269_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/26_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/26_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/26_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/26_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/26_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/270_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/271_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/272_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/273_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/274_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/275_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/276_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/277_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/278_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/279_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/27_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/27_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/27_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/27_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/27_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/280_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/281_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/282_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/283_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/284_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/285_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/286_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/287_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/288_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/289_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/28_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/28_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/28_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/28_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/28_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/290_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/291_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/292_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/293_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/294_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/295_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/296_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/297_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/298_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/299_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/29_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/29_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/29_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/29_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/29_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/2_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/2_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/2_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/2_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/2_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/30_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/30_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/30_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/30_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/30_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/31_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/31_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/31_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/31_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/31_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/32_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/32_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/32_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/32_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/32_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/33_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/33_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/33_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/33_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/33_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/34_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/34_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/34_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/34_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/34_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/35_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/35_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/35_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/35_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/35_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/36_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/36_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/36_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/36_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/36_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/37_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/37_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/37_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/37_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/37_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/38_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/38_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/38_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/38_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/38_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/39_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/39_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/39_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/39_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/39_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/3_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/3_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/3_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/3_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/3_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/40_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/40_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/40_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/40_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/40_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/41_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/41_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/41_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/41_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/41_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/42_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/42_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/42_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/42_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/42_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/43_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/43_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/43_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/43_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/43_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/44_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/44_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/44_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/44_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/44_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/45_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/45_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/45_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/45_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/45_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/46_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/46_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/46_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/46_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/46_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/47_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/47_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/47_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/47_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/47_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/48_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/48_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/48_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/48_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/48_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/49_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/49_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/49_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/49_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/49_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/4_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/4_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/4_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/4_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/4_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/50_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/50_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/50_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/50_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/50_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/51_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/51_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/51_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/51_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/51_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/52_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/52_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/52_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/52_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/52_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/53_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/53_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/53_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/53_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/53_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/54_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/54_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/54_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/54_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/54_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/55_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/55_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/55_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/55_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/55_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/56_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/56_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/56_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/56_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/56_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/57_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/57_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/57_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/57_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/57_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/58_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/58_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/58_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/58_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/58_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/59_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/59_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/59_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/59_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/59_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/5_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/5_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/5_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/5_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/5_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/60_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/60_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/60_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/60_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/60_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/61_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/61_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/61_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/61_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/61_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/62_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/62_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/62_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/62_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/62_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/63_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/63_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/63_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/63_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/63_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/64_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/64_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/64_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/64_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/64_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/65_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/65_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/65_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/65_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/65_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/66_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/66_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/66_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/66_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/66_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/67_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/67_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/67_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/67_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/67_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/68_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/68_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/68_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/68_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/68_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/69_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/69_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/69_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/69_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/69_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/6_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/6_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/6_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/6_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/6_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/70_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/70_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/70_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/70_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/70_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/71_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/71_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/71_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/71_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/71_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/72_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/72_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/72_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/72_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/72_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/73_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/73_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/73_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/73_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/73_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/74_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/74_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/74_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/74_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/74_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/75_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/75_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/75_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/75_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/75_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/76_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/76_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/76_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/76_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/76_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/77_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/77_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/77_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/77_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/77_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/78_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/78_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/78_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/78_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/78_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/79_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/79_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/79_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/79_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/79_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/7_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/7_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/7_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/7_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/7_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/80_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/80_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/80_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/80_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/80_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/81_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/81_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/81_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/81_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/81_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/82_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/82_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/82_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/82_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/82_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/83_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/83_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/83_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/83_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/83_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/84_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/84_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/84_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/84_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/84_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/85_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/85_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/85_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/85_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/85_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/86_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/86_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/86_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/86_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/86_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/87_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/87_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/87_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/87_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/87_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/88_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/88_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/88_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/88_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/88_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/89_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/89_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/89_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/89_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/89_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/8_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/8_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/8_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/8_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/8_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/90_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/90_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/90_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/90_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/90_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/91_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/91_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/91_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/91_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/91_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/92_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/92_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/92_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/92_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/92_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/93_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/93_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/93_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/93_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/93_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/94_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/94_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/94_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/94_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/94_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/95_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/95_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/95_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/95_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/95_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/96_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/96_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/96_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/96_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/96_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/97_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/97_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/97_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/97_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/97_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/98_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/98_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/98_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/98_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/98_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/99_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/99_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/99_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/99_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/99_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/9_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/9_100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/9_200.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/9_300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/9_400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_discriminator.h5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_encoder.h5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_generator.h5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_train.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/bigan/99_460.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/bigan/cifar10_augment.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/bigan/cifar10_augmented_cnn.h5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/bigan/mnist_bigan_models.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/bigan/mnist_dc_bigan.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/variational_autoencoder/keras_vae.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/variational_autoencoder/mnist_conv_vae.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/other/mnist/variational_autoencoder/mnist_vae.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/semi_supervised/augmentation/cifar10_pretrained_fully_sup_compar.png" afterPath="$PROJECT_DIR$/semi_supervised/augmentation/cifar10_pretrained_fully_sup_compar.png" />
+      <change beforePath="$PROJECT_DIR$/semi_supervised/augmentation/plot_results.py" afterPath="$PROJECT_DIR$/semi_supervised/augmentation/plot_results.py" />
+      <change beforePath="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py" afterPath="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py" />
+      <change beforePath="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_models.py" afterPath="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_models.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,43 +907,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cifar10_dae_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_dae_train.py">
+      <file leaf-file-name="sd_joint_lr_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_plot_results.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_results.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_plot_recons.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_recons.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="99" column="60" lean-forward="false" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_posthoc_bigan_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_posthoc_bigan_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="170">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -181,38 +919,49 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sd_lr_latent_vis.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_lr_latent_vis.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visualization_funcs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/visualization_funcs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cifar10_models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4607">
+              <caret line="279" column="27" lean-forward="false" selection-start-line="279" selection-start-column="27" selection-end-line="279" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cifar10_bigan_deterministic_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="126" column="31" lean-forward="true" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="cifar10_lr_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_lr_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-485">
+            <state relative-caret-position="-663">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_bigan_models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cifar10_bigan_train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -220,8 +969,18 @@
       <file leaf-file-name="mnist_jlr_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_jlr_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist_lr_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_lr_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -229,22 +988,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sd_posthoc_bigan_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_posthoc_bigan_train.py">
+      <file leaf-file-name="mnist_aae_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_aae_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="1929">
+              <caret line="154" column="65" lean-forward="false" selection-start-line="154" selection-start-column="65" selection-end-line="154" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist_posthoc_bigan_train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_posthoc_bigan_train.py">
+      <file leaf-file-name="mnist_mlp_models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_mlp_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="55" column="90" lean-forward="false" selection-start-line="55" selection-start-column="90" selection-end-line="55" selection-end-column="90" />
-              <folding />
+            <state relative-caret-position="-646">
+              <caret line="72" column="20" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -278,20 +1039,22 @@
       <find>sample</find>
       <find>X</find>
       <find>self.</find>
+      <find>gan_generator</find>
+      <find>latent_reconstructor</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/semi_supervised/bigan/cifar10_recons.py" />
-        <option value="$PROJECT_DIR$/train_models/cifar10_cnn/Results/cifar10_recons.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_recons.py" />
         <option value="$PROJECT_DIR$/semi_supervised/labelling_algorithm/cifar10_guided_labelling.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_aae_train.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_lr_train.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_cnn_gan_train.py" />
         <option value="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_vae_train.py" />
-        <option value="$PROJECT_DIR$/semi_supervised/augmentation/plot_results.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_classifier_comparison.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar_10_classifier_compar_fullset.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/Results/change_results.py" />
@@ -323,17 +1086,20 @@
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_recons.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_vae_train.py" />
         <option value="$PROJECT_DIR$/train_models/mnist_mlp/classifier_comparison.py" />
-        <option value="$PROJECT_DIR$/functions/visualization_funcs.py" />
         <option value="$PROJECT_DIR$/latent_space_visualization/statistical_analysis/cifar10/cifar10_latent_space_statistics.py" />
         <option value="$PROJECT_DIR$/latent_space_visualization/statistical_analysis/cifar10/cifar10_interclass_correlations.py" />
         <option value="$PROJECT_DIR$/latent_space_visualization/statistical_analysis/cifar10/cifar10_correlation_map.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_ce_train.py" />
         <option value="$PROJECT_DIR$/semi_supervised/augmentation/cifar10_bigan_aug_comparison.py" />
-        <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py" />
-        <option value="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py" />
         <option value="$PROJECT_DIR$/train_models/mnist_mlp/mnist_jlr_train.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_dae_train.py" />
         <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_posthoc_bigan_train.py" />
+        <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_models.py" />
+        <option value="$PROJECT_DIR$/semi_supervised/augmentation/plot_results.py" />
+        <option value="$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py" />
+        <option value="$PROJECT_DIR$/functions/visualization_funcs.py" />
+        <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_models.py" />
+        <option value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py" />
       </list>
     </option>
   </component>
@@ -364,6 +1130,56 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="common_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="latent_space_visualization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="latent_space_visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="synthetic_dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="train_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="train_models" type="462c0819:PsiDirectoryNode" />
+              <item name="cifar10_cnn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ME-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ME-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="train_models" type="462c0819:PsiDirectoryNode" />
+              <item name="mnist_mlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -380,41 +1196,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="david" type="cbb8eebc:String" user="david" />
               <item name="mnist_test" type="cbb8eebc:String" user="mnist_test" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="david" type="b2602c69:ProjectViewProjectNode" />
-              <item name="david" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="david" type="b2602c69:ProjectViewProjectNode" />
-              <item name="david" type="462c0819:PsiDirectoryNode" />
-              <item name="common_models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="david" type="b2602c69:ProjectViewProjectNode" />
-              <item name="david" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="david" type="b2602c69:ProjectViewProjectNode" />
-              <item name="david" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="david" type="b2602c69:ProjectViewProjectNode" />
-              <item name="david" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar10" type="462c0819:PsiDirectoryNode" />
-              <item name="bigan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,7 +1240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cifar10_bigan_aug_comparison">
+  <component name="RunManager" selected="Python.sd_joint_lr_train">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,6 +1258,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="change_results" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -495,6 +1277,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_aae_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -514,6 +1297,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_aae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -533,6 +1317,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_basic_ae_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -552,6 +1337,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_basic_ae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -571,6 +1357,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_bigan_aug_comparison" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -590,6 +1377,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_bigan_comparison" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -609,6 +1397,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_bigan_deterministic_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -628,6 +1417,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_bigan_models" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -647,6 +1437,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_bigan_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -666,6 +1457,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_bigan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -685,13 +1477,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_ce_train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/cifar10_cnn" />
@@ -704,6 +1497,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_ce_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -723,13 +1517,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_classifier_comparison" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="" value="" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="" value="" />
         <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
@@ -743,6 +1538,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_cnn" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -762,13 +1558,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_cnn_gan_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/cifar10_cnn" />
@@ -781,6 +1578,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_cnn_gan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -800,6 +1598,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_correlation_map (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -819,6 +1618,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_correlation_map" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -838,6 +1638,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_dae_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -857,6 +1658,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_dae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -876,6 +1678,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_guided_labelling" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -895,6 +1698,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_interclass_correlations (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -914,6 +1718,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_interclass_correlations" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -933,13 +1738,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_latent_space_statistics (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/latent_space_visualization/statistical_analysis/cifar10" />
@@ -952,6 +1758,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_latent_space_statistics" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -971,6 +1778,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_lr_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -990,6 +1798,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_lr_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1009,6 +1818,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_models" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1028,13 +1838,32 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="cifar10_plot_models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/cifar10_cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="david" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_plot_recons" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/cifar10_cnn" />
@@ -1047,6 +1876,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_plot_results" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1065,6 +1895,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_recons" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1084,13 +1915,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_vae_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/cifar10_cnn" />
@@ -1103,6 +1935,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar10_vae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1122,13 +1955,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="cifar_10_classifier_compar_fullset" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/cifar10_cnn" />
@@ -1141,13 +1975,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="classifier_comparison (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1160,6 +1995,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="classifier_comparison" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1179,6 +2015,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="gan_use" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1198,6 +2035,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="keras_conv_ae_compare" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1217,13 +2055,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="latent_interpol _test" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1236,6 +2075,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="linear_transform_test" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1255,13 +2095,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_aae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1274,6 +2115,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_basic_ae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1293,6 +2135,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_bigan_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1312,6 +2155,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_bigan_train (2)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1331,6 +2175,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_bigan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1350,6 +2195,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_bigan_train(1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1369,6 +2215,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_cnn" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1388,6 +2235,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_cnn_augmented" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1407,6 +2255,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_cnn_fully_augmented" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1426,6 +2275,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_cnn_models" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1445,6 +2295,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_conv_ae_compare (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1464,6 +2315,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_conv_ae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1483,6 +2335,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_conv_ae_tsne" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1502,13 +2355,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_dae_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1521,6 +2375,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_dae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1540,6 +2395,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_dc_bigan" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1559,6 +2415,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_dcgan" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1578,6 +2435,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_gan" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1597,6 +2455,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_gan_new" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1616,6 +2475,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_gan_test" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1635,6 +2495,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_gan_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1654,13 +2515,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_gan_train (2)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1673,6 +2535,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_gan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1692,13 +2555,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_joint_lr_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1711,13 +2575,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_latent_regressor_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1730,6 +2595,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_latent_space_statistics" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1749,13 +2615,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_ls_interpolations" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1768,6 +2635,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_mlp_bigan" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1787,13 +2655,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_mlp_context_encoder (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1806,6 +2675,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_mlp_context_encoder" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1825,13 +2695,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_mlp_plot_recons" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1844,13 +2715,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_posthoc_bigan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1863,13 +2735,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_sae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1882,13 +2755,14 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_vae_train (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_models/mnist_mlp" />
@@ -1901,6 +2775,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="mnist_vae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1920,6 +2795,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="plot_results" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1938,6 +2814,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_aae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1957,6 +2834,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_basic_ae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1976,6 +2854,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_bigan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1995,6 +2874,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_dae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2014,6 +2894,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_gan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2033,6 +2914,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_generate_dataset" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2051,6 +2933,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_joint_lr_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2070,6 +2953,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_lr_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2089,6 +2973,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_pca (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2108,6 +2993,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_pca" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2127,6 +3013,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_posthoc_bigan_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2146,6 +3033,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_sae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2165,6 +3053,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="sd_vae_train" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2184,6 +3073,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="test_bigan (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2203,6 +3093,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="test_bigan" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2222,6 +3113,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="vae_test (1)" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2241,6 +3133,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="vae_test" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2260,6 +3153,7 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="visualization_funcs" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -2279,8 +3173,9 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="96">
+    <list size="97">
       <item index="0" class="java.lang.String" itemvalue="Python.mnist_gan_train (2)" />
       <item index="1" class="java.lang.String" itemvalue="Python.change_results" />
       <item index="2" class="java.lang.String" itemvalue="Python.cifar10_plot_results" />
@@ -2377,17 +3272,22 @@
       <item index="93" class="java.lang.String" itemvalue="Python.cifar10_plot_recons" />
       <item index="94" class="java.lang.String" itemvalue="Python.classifier_comparison (1)" />
       <item index="95" class="java.lang.String" itemvalue="Python.cifar10_ce_train (1)" />
+      <item index="96" class="java.lang.String" itemvalue="Python.cifar10_plot_models" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.cifar10_ce_train (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.classifier_comparison (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.cifar10_plot_recons" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.cifar10_plot_models" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cifar10_ce_train (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.classifier_comparison (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cifar10_plot_recons" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -2400,28 +3300,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="65" width="1282" height="673" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28623852" sideWeight="0.20178282" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32755905" sideWeight="0.5124451" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32755905" sideWeight="0.4875549" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28623852" sideWeight="0.7982172" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28444085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844037" sideWeight="0.493517" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28503937" sideWeight="0.78916544" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49027553" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2468,119 +3368,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/Models/mnist_vae_encoder.h5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_mlp_context_encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1973">
-          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_bigan_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_sae_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_vae_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_latent_regressor_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="25" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_dae_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_basic_ae_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/mnist/latent_interpol_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/latent_interpol _test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_aae_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="154" column="65" lean-forward="false" selection-start-line="154" selection-start-column="65" selection-end-line="154" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/latent_interpol _test.py" />
     <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_ls_interpolations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="56" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_mlp_plot_recons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_mlp_plot_recons.py" />
     <entry file="file://$PROJECT_DIR$/other/mnist/bigan/cifar10_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-741">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2588,15 +3388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/visualization_funcs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="109" column="33" lean-forward="false" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2609,7 +3400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2622,9 +3412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="69" column="15" lean-forward="false" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2632,7 +3419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2645,27 +3431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1092">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/semi_supervised/augmentation/cifar10_bigan_aug_comparison.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="140" column="75" lean-forward="false" selection-start-line="140" selection-start-column="75" selection-end-line="140" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2673,17 +3438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="905">
           <caret line="114" column="39" lean-forward="false" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="133" column="86" lean-forward="false" selection-start-line="133" selection-start-column="86" selection-end-line="133" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2691,7 +3445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2699,7 +3452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2707,9 +3459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="96" column="63" lean-forward="false" selection-start-line="96" selection-start-column="63" selection-end-line="96" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2717,23 +3466,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="41" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_joint_lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_joint_lr_train.py" />
     <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_gan_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2741,25 +3481,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-624">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_joint_lr_train.py" />
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_recons.py" />
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_test_examples.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_posthoc_bigan_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py">
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/classifier_comparison.py" />
+    <entry file="file://$PROJECT_DIR$/other/cifar10/cifar10_bigan.py" />
+    <entry file="file://$PROJECT_DIR$/other/cifar10/cifar10_gan.py" />
+    <entry file="file://$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_dae_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_posthoc_bigan_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
+        <state relative-caret-position="17">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
@@ -2773,124 +3549,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_jlr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_joint_lr_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_dae_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_recons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_test_examples.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_recons.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="392">
           <caret line="99" column="60" lean-forward="false" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_posthoc_bigan_train.py">
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_plot_models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/classifier_comparison.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="400" column="24" lean-forward="false" selection-start-line="400" selection-start-column="24" selection-end-line="400" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/cifar10/cifar10_bigan.py">
+    <entry file="file://$PROJECT_DIR$/semi_supervised/augmentation/plot_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="199">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semi_supervised/augmentation/cifar10_pretrained_fully_sup_compar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semi_supervised/augmentation/cifar10_pretrained_aug_compar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semi_supervised/augmentation/cifar10_bigan_aug_compar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/semi_supervised/augmentation/cifar10_bigan_aug_comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="140" column="75" lean-forward="false" selection-start-line="140" selection-start-column="75" selection-end-line="140" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_jlr_latent_vis_96.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/Images/sd_lr_latent_vis.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_mlp_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="72" column="20" lean-forward="false" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4607">
+          <caret line="279" column="27" lean-forward="false" selection-start-line="279" selection-start-column="27" selection-end-line="279" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_lr_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_aae_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1929">
+          <caret line="154" column="65" lean-forward="false" selection-start-line="154" selection-start-column="65" selection-end-line="154" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_models/mnist_mlp/mnist_jlr_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_lr_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/cifar10/cifar10_gan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3176">
+        <state relative-caret-position="-663">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_models.py">
+    <entry file="file://$PROJECT_DIR$/latent_space_visualization/synthetic_dataset/sd_joint_lr_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/cifar10/bigan/cifar10_bigan_train.py">
+    <entry file="file://$PROJECT_DIR$/train_models/cifar10_cnn/cifar10_bigan_deterministic_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2040">
+          <caret line="126" column="31" lean-forward="true" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/visualization_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

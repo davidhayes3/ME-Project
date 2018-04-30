@@ -191,9 +191,6 @@ save_models(path=model_path, generator=generator, encoder=encoder)
 # Save reconstructions of test images
 save_reconstructions(image_path, num_classes, X_test, y_test, generator, encoder, img_rows, img_cols, channels, color=False)
 
-# Save latent visualization
-save_latent_vis(image_path, X_train, y_train, encoder, num_classes)
-
 # Save loss curves
 plot_gan_batch_loss(image_path, epochs, num_batches, d_batch_loss_trajectory, g_batch_loss_trajectory)
 plot_gan_epoch_loss(image_path, epochs, d_epoch_loss_trajectory, g_epoch_loss_trajectory)

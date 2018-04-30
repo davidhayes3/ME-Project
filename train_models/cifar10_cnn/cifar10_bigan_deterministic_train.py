@@ -35,21 +35,25 @@ model_path = 'Models/cifar10_bigan_determ'
 # Instantiate models
 # =====================================
 
+# Instantiate models
 generator = generator_model()
 encoder = deterministic_encoder_model()
 discriminator = bigan_discriminator_model()
 
+# Specify optimizer
 lr = 1e-4
 beta_1 = 0.5
 beta_2 = 0.999
 opt_d = Adam(lr=lr, beta_1=beta_1, beta_2=beta_2)
 opt_g = Adam(lr=lr, beta_1=beta_1, beta_2=beta_2)
 
+# Freeze generator and encoder while discriminator is changed
 generator.trainable = False
 encoder.trainable = False
 bigan_discriminator = bigan_model(generator, encoder, discriminator, latent_dim, img_shape)
 bigan_discriminator.compile(optimizer=opt_d, loss='binary_crossentropy')
 
+# Freeze discriminator while generator and encoder are trained
 generator.trainable = True
 encoder.trainable = True
 discriminator.trainable = False

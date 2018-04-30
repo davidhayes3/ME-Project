@@ -109,9 +109,9 @@ def save_reconstructions(path, num_classes, test_data, test_labels, generator, e
     for i in range(num_rows):
         for j in range(num_cols):
             if color is True:
-                im = recon_x[i * num_rows + j].reshape(img_rows, img_cols, channels)
+                im = recon_x[i * num_cols + j].reshape(img_rows, img_cols, channels)
             if color is False:
-                im = recon_x[i * num_rows + j].reshape(img_rows, img_cols)
+                im = recon_x[i * num_cols + j].reshape(img_rows, img_cols)
                 plt.gray()
             ax = plt.subplot(gs[i, j])
             plt.imshow(im)
